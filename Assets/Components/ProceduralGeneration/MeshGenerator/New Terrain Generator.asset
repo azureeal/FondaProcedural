@@ -18,13 +18,13 @@ MonoBehaviour:
   height: 256
   depth: 10
   noiseType: 0
-  _frequency: 0.01
-  _amplitude: 1
-  fractalType: 0
-  _octaves: 3
+  _frequency: 0.0288
+  _amplitude: 1.35
+  fractalType: 2
+  _octaves: 4
   _lacunarity: 2
-  _gain: 0.5
-  _waterHeight: -0.6
+  _gain: 0.754
+  _waterHeight: -0.73
   _sandHeight: -0.3
   _grassHeight: 0.8
   _rockHeight: 1

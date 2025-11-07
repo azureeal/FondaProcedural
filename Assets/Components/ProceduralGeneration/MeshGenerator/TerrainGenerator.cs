@@ -51,6 +51,8 @@ public class TerrainGenerator : ProceduralGenerationMethod
         noise.SetFractalLacunarity(_lacunarity);
         noise.SetFractalGain(_gain);
 
+        terrain = GridGenerator.gameObject.GetComponent<Terrain>();
+
         terrain.terrainData = GenerateTerrain(terrain.terrainData, noise);
       
     }
